@@ -1,0 +1,21 @@
+{
+  "mistral-7b": {
+    "name": "mistralai/Mistral-7B-v0.1",
+    "type": "huggingface",
+    "dtype": "float16",
+    "quantization": null,
+    "device_map": "auto"
+  },
+  "mistral-7b-qlora": {
+    "name": "your-username/mistral-7b-qlora",
+    "type": "huggingface",
+    "dtype": "float16",
+    "quantization": "4bit",
+    "device_map": "auto"
+  },
+  "gpt-3.5-turbo": {
+    "name": "gpt-3.5-turbo",
+    "type": "openai",
+    "api_key": "YOUR_OPENAI_KEY"  # Set via environment variable
+  }
+}
