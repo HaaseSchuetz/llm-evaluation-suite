@@ -1,0 +1,43 @@
+{
+  "mmlu": {
+    "name": "MMLU",
+    "description": "Massive Multitask Language Understanding (57 tasks)",
+    "task": "mmlu",
+    "metrics": ["accuracy"],
+    "split": "test",
+    "num_fewshot": 5,
+    "subjects": null  # null = all subjects, or specify e.g., ["math", "physics"]
+  },
+  "truthfulqa": {
+    "name": "TruthfulQA",
+    "description": "Measures truthfulness of generated answers",
+    "task": "truthfulqa",
+    "metrics": ["accuracy"],
+    "split": "validation",
+    "num_fewshot": 0
+  },
+  "arc_challenge": {
+    "name": "ARC Challenge",
+    "description": "AI2 Reasoning Challenge (science questions)",
+    "task": "arc_challenge",
+    "metrics": ["accuracy"],
+    "split": "test",
+    "num_fewshot": 25
+  },
+  "hellaswag": {
+    "name": "HellaSwag",
+    "description": "Common-sense natural language inference",
+    "task": "hellaswag",
+    "metrics": ["accuracy"],
+    "split": "validation",
+    "num_fewshot": 10
+  },
+  "boolq": {
+    "name": "BoolQ",
+    "description": "Boolean questions (yes/no)",
+    "task": "boolq",
+    "metrics": ["accuracy"],
+    "split": "validation",
+    "num_fewshot": 0
+  }
+}
