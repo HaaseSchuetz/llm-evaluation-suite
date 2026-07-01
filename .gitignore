@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+venv/
+.env/
+.venv/
+.env.bak/
+venv.bak/
+
+# Data
+evaluation/__pycache__/
+results/raw/*
+!results/raw/.gitkeep
+results/reports/*
+!results/reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+
+# Notebooks
+.ipynb_checkpoints/
+
+# API Keys (if accidentally committed)
+*.json
+!config/*.json
